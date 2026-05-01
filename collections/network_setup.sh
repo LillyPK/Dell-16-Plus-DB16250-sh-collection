@@ -8,7 +8,8 @@ sudo pacman -S --needed --noconfirm \
     network-manager-applet \
     networkmanager-openvpn \
     wireless-regdb \
-    ufw
+    ufw \
+    bluez-obex
 
 sudo systemctl enable --now NetworkManager
 sudo systemctl enable --now ufw
