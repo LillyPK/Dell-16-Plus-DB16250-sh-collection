@@ -13,3 +13,4 @@ sudo pacman -S --needed --noconfirm \
 
 sudo systemctl enable --now NetworkManager
 sudo systemctl enable --now ufw
+systemctl --user enable --now obexd
